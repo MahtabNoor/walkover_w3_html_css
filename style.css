@@ -1,0 +1,35 @@
+
+h1{
+    font-size:150px ;
+}
+
+#checking{
+	color: blue;
+}
+
+.food_des{
+	width: 500px;
+	margin-left: 40px;
+}
+#nav-bar {
+    display: block;
+    height: 30px;
+    line-height: 50px;
+    background-color: orange;
+}
+#nav-bar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#nav-bar li {
+    float: left;
+
+}
+
+
+#footer{
+	font-family: 'Comfortaa', cursive; 
+	color:#F5F9FC; 
+	background-color: black;
+}
