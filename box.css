@@ -1,0 +1,13 @@
+.wrapper{
+	width: 400px;
+	margin: 1 em;
+	
+	
+	border: 1px dotted blue;
+}
+.content{
+    padding: .5em;
+    box-sizing: border-box;
+	width: 400px;
+	border: 1px solid black;
+}
