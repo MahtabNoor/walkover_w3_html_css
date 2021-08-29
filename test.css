@@ -38,7 +38,9 @@
 	margin: 1em;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 .inner-box2{
 	display: flex;
@@ -52,27 +54,8 @@
 	
 	
 }
-form{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-input{
-	display: block;
-	height: 30px;
-	margin: 1em;
-	width: 80%;
-	border-radius: 20px;
-	text-align: center;
-	border:none;
-	font-family: cursive;
-}
-#sbt{
-	width: 50%;
-	background-color: black;
-	color:white;
-}
+
+
 .inner-box1{
 	background-color: cyan;
 	width:95%;
@@ -100,32 +83,47 @@ input{
 
 }
 .square1{
+	margin: 1%;
 	background-color: cyan;
 	width: 48%;
 	height: 48%;
-	  float: left;
+	
 
 }
 .square2{
-	
+	margin: 1%;
 	width: 48%;
 	height: 48%;
-	  float: left;
+	  
 
 }
 .square3{
-
+  margin: 1%;
 	width: 48%;
 	height: 48%;
-	  float: left;
+	;
+	  
 
 }
 .square4{
+	margin: 1%;
 	background-color: cyan;
 	width: 48%;
 	height: 48%;
-	  float: left;
+	 
 
+}
+img{
+	height: 75%;
+	width: 75%;
+	object-fit: cover;
+}
+
+#img1{
+	margin-top: 30%;
+}
+#img2{
+	margin-left: 25%;
 }
 
 
@@ -155,5 +153,20 @@ input{
 		height: 45%;
 
 	}
-	}
+
+	img{
+	height: 75%;
+	width: 100%;
+	
+}
+#img1{
+	margin-top: 1%;
+
+}
+
+#img2{
+	margin-left: 1%;
+	margin-top: 25%;
+}
+}
 
