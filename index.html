@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-	<p><center> <h1>Foodhub </h1></center> </p>
+
 
 	<!-- <ul id="nav-bar">
 		<li><a href="#">Home</a></li>
@@ -16,27 +16,33 @@
 		<li><a href="#">Contact Us</a></li>
 	</ul>
 -->
-  <span>
-  	<a href="#"> Home</a>
-  	<a href="#"> About</a>
-  	<a href="#"> Contact us</a>
+  <span class="nav">
+  
+  	<span class="heading">Foodhub  <i class="fas fa-utensils"></i></span>
+  	<span class="nav-items">
+  	<a href="#" id="nav-a"> Home</a>
+  	<a href="#" id="nav-b"> About</a>
+  	<a href="#" id="nav-c"> Contact us</a>
+  </span>
+
    </span>
 
-<p>Here are five reasons I think you’ll love my blog, whether you’re a seasoned chef or just starting out:
+<div style="margin: 1em;"><p>Here are five reasons I think you’ll love my blog, whether you’re a seasoned chef or just starting out:
 
 <ul>
-<li>Great recipes. It’s a food blog, so naturally you’re going to find recipes here. But I only share the recipes I really, truly love. You won’t find anything here that I’ve never made before or would never make again. Every recipe I post has my stamp of approval—if I wouldn’t eat it or serve it, you won’t find it here.</li>
-<li>Step-by-step instructions with photos. When I first started cooking, I was unsure about so many things: How big should I dice the onions? How thick should I cut the vegetables? What should this look like halfway through the recipe when it looks NOTHING like the final photo? When I created this blog, my goal was to take away some of that uncertainty by including tons of photos to bring each step of the recipe to life.</li>
-<li>Helpful tips and techniques. I love learning any skill that helps me get the job done faster, easier or with a better result. That’s why I created a page of nothing but useful tips and techniques.</li>
-<li>Bloopers. Let’s face it – sometimes cooking just doesn’t go as planned. Don’t let that discourage you, though. Look at my mistakes, learn from them and laugh along with me. It’s just food…if it doesn’t turn out, salvage what you can, toss the rest and just try again next time.</li>
-<li>Fun! Food and fun come together in this blog because everything about food should be fun: eating it, making it and even making a mess of it.</li>
+<li style="margin: 1em;">Great recipes. It’s a food blog, so naturally you’re going to find recipes here. But I only share the recipes I really, truly love. You won’t find anything here that I’ve never made before or would never make again. Every recipe I post has my stamp of approval—if I wouldn’t eat it or serve it, you won’t find it here.</li>
+<li style="margin: 1em;">Step-by-step instructions with photos. When I first started cooking, I was unsure about so many things: How big should I dice the onions? How thick should I cut the vegetables? What should this look like halfway through the recipe when it looks NOTHING like the final photo? When I created this blog, my goal was to take away some of that uncertainty by including tons of photos to bring each step of the recipe to life.</li>
+<li style="margin: 1em;">Helpful tips and techniques. I love learning any skill that helps me get the job done faster, easier or with a better result. That’s why I created a page of nothing but useful tips and techniques.</li>
+<li style="margin: 1em;">Bloopers. Let’s face it – sometimes cooking just doesn’t go as planned. Don’t let that discourage you, though. Look at my mistakes, learn from them and laugh along with me. It’s just food…if it doesn’t turn out, salvage what you can, toss the rest and just try again next time.</li>
+<li style="margin: 1em;">Fun! Food and fun come together in this blog because everything about food should be fun: eating it, making it and even making a mess of it.</li>
 </ul>
 </p>
+</div>
 
-<table>
-   <tr>
-    
-      <td>
+<div class="wrapper">
+   
+     <div class="content">
+      
      	<figure>
 	       <img src="./images/brownies.jpg"  alt="brownies">
 	       <figcaption><b> <big>Brownies</big></b></figcaption>
@@ -50,9 +56,9 @@ Oil – While many recipes for brownies use unsalted butter, Michelle’s calls 
 <li>Vanilla Extract – 1/2 teaspoon vanilla really amps up the chocolate flavor.</li>
 </ul>
 </div>
-      </td>
+     </div>
 
-      <td>
+      <div class="content">
         <figure>
 	       <img src="./images/coffee.jpg" alt="coffee">
 	       <figcaption><b><big> Coffee</big></b></figcaption>
@@ -66,15 +72,10 @@ Oil – While many recipes for brownies use unsalted butter, Michelle’s calls 
 <li>Vanilla Extract – 1/2 teaspoon vanilla really amps up the chocolate flavor.</li>
 </ul>
 </div>
-      </td>
-   </tr>
+  </div> 
 
-<br>
-
-
-   <tr>
-
-   	 <td>
+      <div class="content">
+   
        <figure>
 	     <img src="./images/fruit_sandwich.jpg" alt="Fruit Sandwich">
 	     <figcaption> <b><big>Fruit Sandwich</big></b></figcaption>
@@ -88,9 +89,12 @@ Oil – While many recipes for brownies use unsalted butter, Michelle’s calls 
 <li>Vanilla Extract – 1/2 teaspoon vanilla really amps up the chocolate flavor.</li>
 </ul>
 </div>
-     </td>
 
-     <td>
+</div>
+
+     <div class="content">
+
+     
        <figure>
 	     <img src="./images/fruit_shake.jpg" alt="Fruit Shake">
 	     <figcaption> <b><big>Fruit Shake</big></b></figcaption>
@@ -104,37 +108,43 @@ Oil – While many recipes for brownies use unsalted butter, Michelle’s calls 
 <li>Vanilla Extract – 1/2 teaspoon vanilla really amps up the chocolate flavor.</li>
 </ul>
 </div>
-      </td>
+   
+  </div>
 
-    </tr>
-
-</table>
-
+</div>
 
 
-<p>Contact Us</p>
-<form>
-	<div class="pair">
+
+
+
+
+<div class="footer">
+<div class="ftitle">Contact Us</div>
+<form class="form">
+	<div >
 	<label>Name:</label> <br>
 	 <input type="text" name="name" placeholder="Name">
 	</div>
 	 
-	 <div class="pair">
+	 <div >
 	 <label>Email:</label> <br>
 	 <input type="email" name="email" placeholder="Email">
 	 
 	</div>
-	<div class="pair">
+	<div>
 	<label>Feedback:</label><br>
-	<textarea name="feedback" placeholder="feedback"></textarea>
+	<textarea name="feedback" placeholder="Feedback"></textarea>
 
 	</div>
 	 <input type="submit" name="submit" value="Submit" class="btn">
 </form>
 
+<pre> <p id="tdm"> Made with  <i class="fas fa-mug-hot"></i> & <i class="fas fa-heart"></i> by Mahtab</p></pre>
+<script src="https://kit.fontawesome.com/a860a1529f.js" crossorigin="anonymous"></script>
+</div>
+
 </body>
 
-<pre> <p id="footer"> Made with  <i class="fas fa-mug-hot"></i> & <i class="fas fa-heart"></i> by Mahtab</p></pre>
-<script src="https://kit.fontawesome.com/a860a1529f.js" crossorigin="anonymous"></script>
+ 
 </html>
 <!-- vimeo --> 
